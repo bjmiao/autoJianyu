@@ -13,3 +13,17 @@
 7. 导出到excel里面
 
 
+# 使用selenium加载动态网页时
+
+一开始，不管怎么样都加载不出动态页面
+
+然后，开始狗。
+
+`python
+driver.switch_to.window(driver.window_handles[0])
+driver.switch_to.window(driver.window_handles[1]) 
+`
+
+就能加载出来了一刚
+
+？？？为啥
